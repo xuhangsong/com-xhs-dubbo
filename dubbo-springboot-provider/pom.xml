@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-springboot</artifactId>
+    <artifactId>dubbo-springboot-provider</artifactId>
 
     <dependencies>
         <dependency>
@@ -19,6 +19,21 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.xhs.dubbo</groupId>
+            <artifactId>service-api</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>D:/mavenjar/.m2/repository/com/xhs/dubbo/service-api/1.0.0/service-api-1.0.0.jar</systemPath>
         </dependency>
     </dependencies>
     <build>
